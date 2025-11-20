@@ -77,7 +77,7 @@ const Home = () => {
   const shownItems = filteredList.slice(firstIndex, lastIndex);
 
   // Typing effect
-  const headingText = "Company Directory";
+  const headingText = "Companies Directory";
   const [typedText, setTypedText] = useState("");
 
   // Heading's typing effect
